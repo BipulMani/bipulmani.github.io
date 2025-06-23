@@ -5,4 +5,15 @@ title: Home
 
 # Welcome
 
-This is the homepage of my GitHub Pages site.
+Hi, I’m Bipul — a developer who loves building things with code.
+
+This site is where I collect my personal projects, experiments, and ideas. It’s a bit of a digital playground.
+
+## 🚀 Explore
+
+- [About Me](about.html) — My background & interests
+- [Projects](projects.html) — Things I’ve built or contributed to
+
+## Fun Fact
+
+Outside of tech, I enjoy playing guitar, hiking and reading lots of books. If I’m not coding, I’m probably with my friends outside.
