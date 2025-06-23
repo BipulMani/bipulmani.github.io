@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p align="center">
-  <img src="/assets/profile.jpg" alt="Profile photo" style="max-width: 200px; border-radius: 10px;">
+  <img src="/assets/profile.JPG" alt="Profile photo" style="max-width: 200px; border-radius: 10px;">
 </p>
 
 # About Me
