@@ -6,5 +6,10 @@ permalink: /projects/
 
 # Projects
 
-- Project A
-- Project B
+##  Recommendation System
+A movie recommender using matrix factorization, FastAPI backend, and a React frontend.  
+[View Code →](https://github.com/BipulMani/recommendation-system)
+
+---
+
+## Project 2
