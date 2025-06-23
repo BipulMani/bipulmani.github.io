@@ -1,9 +1,9 @@
 title: My GitHub.io Site
 description: A personal website with top navigation
-baseurl: "" # for user.github.io
-url: "https://yourusername.github.io"
+baseurl: "" 
+url: "https://bipulmani.github.io"
 
-theme: null # we're using a custom layout, so disable default theme
+theme: null
 
 # Site-wide navigation
 nav_items:
