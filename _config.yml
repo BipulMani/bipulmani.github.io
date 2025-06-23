@@ -1,5 +1,15 @@
-title: Bipul Mani Pokhrel
-#logo: /assets/img/head_shotcircle.png
-#description: text below image
-show_downlaods: true
-theme: jekyll-theme-minimal
+title: My GitHub.io Site
+description: A personal website hosted on GitHub Pages
+theme: jekyll-theme-cayman
+
+baseurl: "" # Leave blank for user.github.io
+url: "https://yourusername.github.io"
+
+# Optional - used by custom themes or layouts
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
