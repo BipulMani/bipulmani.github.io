@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .navbar {
+      display: flex;
+      background-color: #333;
+      padding: 10px 20px;
+      align-items: center;
+    }
+    .navbar a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    .navbar a:hover {
+      background-color: #575757;
+    }
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    {% for item in site.nav_items %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>

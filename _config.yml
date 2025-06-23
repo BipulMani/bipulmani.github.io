@@ -1,15 +1,15 @@
 title: My GitHub.io Site
-description: A personal website hosted on GitHub Pages
-theme: jekyll-theme-cayman
-
-baseurl: "" # Leave blank for user.github.io
+description: A personal website with top navigation
+baseurl: "" # for user.github.io
 url: "https://yourusername.github.io"
 
-# Optional - used by custom themes or layouts
-nav:
-  - title: "Home"
+theme: null # we're using a custom layout, so disable default theme
+
+# Site-wide navigation
+nav_items:
+  - name: Home
     url: /
-  - title: "About"
+  - name: About
     url: /about/
-  - title: "Projects"
+  - name: Projects
     url: /projects/
