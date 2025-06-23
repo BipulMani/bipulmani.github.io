@@ -11,8 +11,8 @@ This site is where I collect my personal projects, experiments, and ideas. It’
 
 ## 🚀 Explore
 
-- [About Me](about.html) — My background & interests
-- [Projects](projects.html) — Things I’ve built or contributed to
+- [About Me](about/) — My background & interests
+- [Projects](projects/) — Things I’ve built or contributed to
 
 ## Fun Fact
 
