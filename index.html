@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+  <style>
+    body { display: flex; font-family: Arial; }
+    nav { width: 200px; background: #f0f0f0; padding: 10px; }
+    section { flex: 1; padding: 20px; }
+    .tab { display: none; }
+    .tab.active { display: block; }
+    a { display: block; margin: 10px 0; cursor: pointer; }
+  </style>
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</head>
+<body>
+  <nav>
+    <a onclick="showTab('home')">Home</a>
+    <a onclick="showTab('about')">About</a>
+    <a onclick="showTab('projects')">Projects</a>
+  </nav>
+  <section>
+    <div id="home" class="tab active"><h1>Home</h1><p>Welcome!</p></div>
+    <div id="about" class="tab"><h1>About</h1><p>About me...</p></div>
+    <div id="projects" class="tab"><h1>Projects</h1><p>Here are my projects.</p></div>
+  </section>
+</body>
+</html>
